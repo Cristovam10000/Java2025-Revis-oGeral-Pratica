@@ -8,6 +8,7 @@ public class EstruturasCondicionais {
         }
 
         Q1();
+        Q2(20);
     }
 
     public static void Q1 () {
@@ -21,7 +22,14 @@ public class EstruturasCondicionais {
         }
     }
 
-    public static void Q2 () [
-        
-    ]
+    public static void Q2 (int idade)  {
+        if(idade > 18) {
+            System.out.println("Maior de idade");
+        }else if (idade <= 18 && idade >=12) {
+            System.out.println("Adolescente");
+        } else {
+            System.out.println("Criança");
+        }
+
+    }
 }
